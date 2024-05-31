@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamenGo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RamenGo</h1>
+        <form id="ramen-form">
+            <div class="form-group">
+                <label for="broth-select">Choose your broth:</label>
+                <select id="broth-select" required>
+                    <option value="">Select a broth</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="protein-select">Choose your protein:</label>
+                <select id="protein-select" required>
+                    <option value="">Select a protein</option>
+                </select>
+            </div>
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="order-result" class="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

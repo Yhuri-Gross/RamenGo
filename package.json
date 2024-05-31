@@ -1,0 +1,11 @@
+{
+    "name": "ramengo",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "sass": "^x.x.x",
+        "vite": "^5.2.12"
+    }
+}
